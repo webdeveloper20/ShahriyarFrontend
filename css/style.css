@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+
+
+}
+body{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 100vh;
+}
+.home {
+    background-color: #F5F5F5;
+}
+
+.home_img {
+    margin: auto;
+    width: 500px;
+    height: 455px;
+
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url(../img/sehriyar.png);
+    /* filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25)); */
+    border-radius: 8.57954px;
+}
+
+.home_div_img {
+    margin-bottom: 8rem;
+}
+
+.home .home_div .home_h1 {
+    font-size: 4em;
+    /* margin-top: 0px; */
+    /* text-align: center; */
+}
+
+.margin_top {
+    margin-top: 50px !important;
+}
+
+.home .home_div .home_p {
+    font-size: 1em;
+    margin-top: 30px !important;
+    /* text-align: center; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    color: #362F2F;
+}
+
+
+.img_read {
+    background: url(../img/şehriyar_best_read.png);
+    border-radius: 50px;
+    width: 400px;
+    height: 480px;
+
+}
+
+.text_img_line {
+    width: 275px;
+}
+
+
+/* -------------------------------------------------about.html-------------------------------------------*/
+
+.div_about_img {
+    width: 100%;
+
+}
+
+.img_about {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 70%;
+
+    height: 60vh;
+
+}
+
+
+.strong_about {
+    margin-top: 20px;
+    font-size: 11px !important;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #b6b5b5;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* sticky navbar */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding: 25px 0;
+    transition: all 0.3s ease;
+}
+.navbar.sticky{
+    background: #1b1b1b;
+    padding: 10px 0;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+  }
+  

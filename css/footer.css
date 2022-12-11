@@ -1,0 +1,39 @@
+.footer_section {
+    margin-top: 50px;
+    border-top: 1px solid #d1cfcf;
+    border-bottom: 1px solid #d1cfcf
+}
+
+.first_h1 {
+    font-size: 17px;
+}
+
+
+.footer_alt {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.footer_section .nav-link {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.bi-envelope,
+.bi-geo-alt,
+.bi-telephone,
+.bi-instagram,
+.bi-twitter,
+.bi-youtube,
+.bi-linkedin,
+.bi-facebook{
+
+    font-size: 25px;
+}
+.margin_center{
+    margin: auto;
+}
