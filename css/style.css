@@ -41,7 +41,7 @@ body{
 }
 
 .margin_top {
-    margin-top: 50px !important;
+    margin-top: 140px !important;
 }
 
 .home .home_div .home_p {
@@ -89,6 +89,7 @@ body{
 
 .strong_about {
     margin-top: 20px;
+    max-width: 600px;
     font-size: 11px !important;
 }
 /* custom scroll bar */
@@ -106,7 +107,7 @@ body{
     position: fixed;
     width: 100%;
     z-index: 2;
-    padding: 25px 0;
+    /* padding: 25px 0; */
     transition: all 0.3s ease;
 }
 .navbar.sticky{
@@ -114,4 +115,7 @@ body{
     padding: 10px 0;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
   }
-  
+/* book_section */
+/* .book_section{
+    margin-top: 100px;
+} */
