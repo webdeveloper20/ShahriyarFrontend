@@ -152,6 +152,11 @@ nav.sticky {
       
     
   }
+
+.footer_alt {
+
+    font-size: 11px;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -166,4 +171,9 @@ nav.sticky {
       
     
   }
+  .footer_alt {
+
+    font-size: 10px;
+}
+
 }
