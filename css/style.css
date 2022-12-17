@@ -120,3 +120,17 @@ body{
     margin-top: 100px;
 } */
 /* Poemalar */
+
+/* arxiv */
+.img-size{
+    height: 300px; width: 400px;
+}
+/* contact */
+.section_contact{
+    padding-top: 150px;
+}
+.bg_contact{
+    background: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+}
