@@ -35,7 +35,7 @@ body{
 }
 
 .home .home_div .home_h1 {
-    font-size: 4em;
+    font-size: 3em;
     /* margin-top: 0px; */
     /* text-align: center; */
 }
@@ -55,7 +55,9 @@ body{
     color: #362F2F;
 }
 
-
+header .nav-link{
+    font-size: 13px;
+}
 .img_read {
     background: url(../img/şehriyar_best_read.png);
     border-radius: 50px;
@@ -86,7 +88,9 @@ body{
 
 }
 
-
+.about_section{
+    padding-top: 110px !important;
+}
 .strong_about {
     margin-top: 20px;
     max-width: 600px;
@@ -107,13 +111,11 @@ body{
     position: fixed;
     width: 100%;
     z-index: 2;
-    /* padding: 25px 0; */
     transition: all 0.3s ease;
 }
-.navbar.sticky{
-    background: #1b1b1b;
-    padding: 10px 0;
-    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
+nav.sticky {
+    transition: 0.5s ease !important;
+    padding: 8px 20px !important;
   }
 /* book_section */
 /* .book_section{
@@ -125,6 +127,9 @@ body{
 .img-size{
     height: 300px; width: 400px;
 }
+.img_size{
+    height: 100%; width: 100%;
+}
 /* contact */
 .section_contact{
     padding-top: 150px;
@@ -134,3 +139,43 @@ body{
     padding: 30px;
     border-radius: 10px;
 }
+/* Responsiv hisse */
+@media only screen and (max-width: 768px) {
+
+    
+    .home .home_div .home_h1 {
+        font-size: 2.4em;
+    }
+    .home .home_div .home_p {
+       
+        font-size: 14px;
+      
+    
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    
+    .home .home_div .home_h1 {
+        font-size: 1.6em;
+    }
+    .home .home_div .home_p {
+       
+        font-size: 10px;
+      
+    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
